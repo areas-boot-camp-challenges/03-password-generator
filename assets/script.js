@@ -1,14 +1,12 @@
-// Save the #generate element to generateButton
+// Save the #generate element
 var generateButton = document.querySelector("#generate");
-console.log(generateButton); // **debug**
 
 // Write the password to the #password input
 function writePassword() {
   var password = generatePassword();
-  var passwordText = document.querySelector("#password"); // Store the #password element to the passwordText variable
-
+  var passwordText = document.querySelector("#password");
   passwordText.value = password;
-
+  //
   // Generate a password for the user.
   function generatePassword() {
     // Ask the user for their password criteria.
@@ -24,7 +22,7 @@ function writePassword() {
       var lengthHeader = "Length \n"
       var lowercaseHeader = "Lowercase Characters \n"
       var uppercaseHeader = "Uppercase Characters \n"
-      var integersHeader = "Integers \n"
+      var integersHeader = "Numbers \n"
       var specialHeader = "Special Characters \n"
       //
       // Define error messages.
@@ -75,7 +73,7 @@ function writePassword() {
         }
         //
         // Prompt the user to choose whether they’d like to include integers.
-        var integers = passwordPrompt( integersHeader + "Choose whether you’d like to include integers (Yes or No):", "Yes" )
+        var integers = passwordPrompt( integersHeader + "Choose whether you’d like to include numbers (Yes or No):", "Yes" )
         // Check for integer errors.
         while ( integers !== "Yes" && integers !== "No" ) {
           // If their choice is not Yes or No
@@ -174,7 +172,6 @@ function writePassword() {
     return password
     //
   } // eof generatePassword()
-
 } // eof writePassword()
 
 // Add a listener event to generateButton
