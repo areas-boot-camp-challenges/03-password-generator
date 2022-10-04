@@ -1,10 +1,10 @@
 # Challenge 3: Password Generator
 
-The purpose of this project is to build a webpage the lets users generate a secure password. Users are prompted to specific their criteria, and the webpage uses it to generate a password to their specification.
+The purpose of this project is to build a webpage the lets users generate a secure password. Users are prompted to specify their criteria, and the webpage uses their criteria to generate a password.
 
 ## Installation
 
-This project is configured with [GitHub Pages](https://pages.github.com). To learn more about how to use GitHub Pages, see [https://docs.github.com/pages](https://docs.github.com/pages).
+This project is configured with [GitHub Pages](https://pages.github.com). To learn more about how to use GitHub Pages, see [docs.github.com/pages](https://docs.github.com/pages).
 
 ## Usage
 
