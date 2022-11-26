@@ -8,7 +8,7 @@ This project is configured with [GitHub Pages](https://pages.github.com). To lea
 
 ## Usage
 
-This project is available at [areas-boot-camp.github.io/challenge-3-password-generator/](https://areas-boot-camp.github.io/challenge-3-password-generator/).
+This project is available at [areas-boot-camp.github.io/03-password-generator/](https://areas-boot-camp.github.io/03-password-generator/).
 
 ![A screenshot of the password generator site](./assets/password-generator.png)
 
